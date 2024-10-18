@@ -188,6 +188,8 @@ body{
   .video00 {
 	border: #000 1px solid;
 	background-color: #000;
+	padding-top: 50px;
+	padding-bottom: 50px;
   }
 /* carrossel */
 .carousel-indicators img{
