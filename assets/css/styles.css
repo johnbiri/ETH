@@ -148,12 +148,14 @@ body{
 .modal1 {
     background-color: #000;
 	border-radius: 0px;
-	border: #500078 1px solid;
+	border: #000 1px solid;
 }
 .modal2 {
     background-color: #000;
 	border-radius: 0px;
-	border: #a300c8 1px solid;
+	border: #000 1px solid;
+	padding-top: 0px;
+	padding-bottom: 60px;
 }
 /* Scroll da página */
 /* width */
@@ -166,13 +168,13 @@ body{
   ::-webkit-scrollbar-thumb {
 	background: #000;
 	border-style: solid;
-	border-color: #500078;
+	border-color: #000;
 	border-width: 1px;}
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
 	background: #000;
 	border-style: solid;
-	border-color: #a300c8;
+	border-color: #000;
 	border-width: 1px;}
   /* The buttons on the scrollbar (arrows pointing upwards and downwards). */
   ::-webkit-scrollbar-button {
@@ -188,8 +190,8 @@ body{
   .video00 {
 	border: #000 1px solid;
 	background-color: #000;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 60px;
+	padding-bottom: 60px;
   }
 /* carrossel */
 .carousel-indicators img{
