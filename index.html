@@ -9,7 +9,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
-<body>
+<body id="topo">
 	<!-- Cabeçalho -->
 	<header class="container-fluid p-2 text-center header1">
 		<nav class="navbar navbar-expand-lg header1">
@@ -20,9 +20,6 @@
 				</button>
 				<div class="collapse navbar-collapse justify-content-end header1" id="navbarSupportedContent">
 				  <ul class="navbar-nav">
-					<li class="nav-item itemMenu01">
-						<a class="nav-link text-white" aria-current="page" href="index.html"><i class="bi bi-house icon1 fs-1"></i> Home</a>
-					</li>
 					<li class="nav-item dropdown itemMenu00">
 						<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 							<i class="bi bi-building-gear icon1 fs-1"></i> Projetos
@@ -32,16 +29,15 @@
 						  <li><a class="dropdown-item text-white itemMenu00" href="#facul1">Faculdade</a></li>
 						  <li><a class="dropdown-item text-white itemMenu00" href="#blsk1">BLSK</a></li>
 						  <li><a class="dropdown-item text-white itemMenu00" href="#lancer1">Lancer</a></li>
+						  <li><a class="dropdown-item text-white itemMenu00" href="#am1">AM</a></li>
 						  <li><a class="dropdown-item text-white itemMenu00" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Vázio</a></li>
 						</ul>
 					</li>
-					<li class="nav-item itemMenu00">
-						<a class="nav-link text-white" href="jogos.html"><i class="bi bi-dpad icon1 fs-1"></i> Jogos</a>
+					<li class="nav-item itemMenu01">
+						<a class="nav-link text-white" aria-current="page" href="index.html"><i class="bi bi-house icon1 fs-1"></i> Home</a>
 					</li>
 					<li class="nav-item itemMenu00">
 						<a class="nav-link text-white" href="teste.html"><i class="bi bi-file-earmark-person icon1 fs-1"></i> Teste</a>
-					</li>
-					<li class="nav-item itemMenu00">
 					</li>
 				  </ul>
 				</div>
@@ -1364,11 +1360,174 @@
 						</div>
 					  </div> 
 					<!-- Fim Card -->
+					<!-- Card 012 -->
+					<div id="am1" class="col">
+						<div class="card h-100 video00">
+						  <div class="card-body">
+							<h1 class="card-subtitle text-light">AM</h1>
+							<p class="card-text text-warning">Andarilho e MaxMRM.</p>
+							<img class="img02" src="assets/img/cards/c11.jpg"> <br> <br>
+							<p class="texto04">
+								<img align="left" class="img01" src="assets/img/p04.jpg">
+								Esta seção foi criada para reunir uma coleção variada de links, vídeos e informações que podem ser úteis e interessantes. O objetivo é proporcionar um espaço dinâmico 
+                      			onde diferentes tipos de conteúdo possam ser acessados com facilidade, oferecendo desde recursos educativos até entretenimento. Aqui, você encontrará materiais que exploram 
+                      			diversos tópicos, trazendo um pouco de tudo em um só lugar. Seja para aprender algo novo, explorar novos interesses ou simplesmente relaxar com vídeos e leituras 
+                      			divertidas, esta área é uma verdadeira central de descobertas.
+							  </p>
+						  </div>
+						  <div class="card-footer">
+							<p class="texto04">
+								<a type="button" class="btn btn-outline-light" href="#lancer1">🔺</a>
+								<button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#c12l1">Links</button>
+								<button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#c12l3">Notas</button>
+								<a type="button" class="btn btn-outline-light" href="#topo">Menu</a>
+								<a type="button" class="btn btn-outline-light" href="#fim1">🔻</a>
+							</p>                   
+						  </div>
+						</div>
+					  </div>
+					  <div class="modal fade" id="c12l1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+						  <div class="modal-content modal2">
+						  <div class="modal-header modal1">
+							<h1 class="modal-title fs-5 texto06" id="exampleModalLabel">Links sobre EPDC</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						  </div>
+						  <div class="modal-body modal1">
+							<p class="texto04">
+								<a href="#" class="btn btn-light" target="_blank">Vazio</a>
+							</p>
+						  </div>
+						  <div class="modal-footer modal1">
+							<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+						  </div>
+						  </div>
+						</div>
+						</div>
+					  <div class="modal fade" id="c12l3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+						  <div class="modal-content modal2">
+						  <div class="modal-header modal1">
+							<h1 class="modal-title fs-5 texto06" id="exampleModalLabel">Notas sobre EPDC</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						  </div>
+						  <div class="modal-body modal1">
+							<p class="texto04">
+								<b class="text-warning">Andarilho</b> <br> <br>
+								<img align="left" class="img01" src="assets/img/p09.jpg">
+								<b class="texto03">Gameplays do Andarilho:</b> Canal focado em Gameplays. Séries como Project Zomboid, 7 Days To Die, Rust, The Forest, Ark, Conan Exiles e mais jogos de sobrevivência, 
+								novos lançamentos e muito mais. O objetivo do canal é trazer o entretenimento para você através dos vídeos e lives. Aqui está uma 
+								<a title="Parou em 2 - (00:16:53)" class="link00" target="_blank" href="https://www.youtube.com/embed/videoseries?list=PLd9ykfMeym3jCU5tCFLXjZbMg4GY-u2EZ">playlist</a> 
+								com os últimos vídeos do canal. Outros links relacionados: <a class="link00" target="_blank" href="https://www.youtube.com/@Andarilhou/videos">Canal</a>. Tenho uma Inscrição Grupo 1 na 
+								<a class="link00" target="_blank" href="https://www.twitch.tv/andarilhoo">Twitch</a> com Benefícios de inscrição - Apoiar diretamente o streamer - Transmissões sem anúncios (com poucas 
+								exceções) - Distintivo de inscrito - Fale no chat durante o modo exclusivo para inscritos. - Não é afetado pelo modo de chat lento - 20 emotes de inscrito - 1 benefício adicional - Canais 
+								de Discord exclusivos para inscritos. Outros links:
+								<a class="link00" target="_blank" 
+								href="https://www.youtube.com/@livesdoandarilho">Canal de lives</a> /
+								<a class="link00" target="_blank" 
+								href="https://www.instant-gaming.com/pt/giveaway/andarilho">Giveway</a> /
+								<a class="link00" target="_blank" 
+								href="https://www.instagram.com/andarilhou/">Instagram</a> /
+								<a class="link00" target="_blank" 
+								href="https://discord.com/channels/302563407381528576/302563407381528576">Discord</a>. <br>
+								Se inscrever no canal do Andarilho no YouTube me mantém atualizado sobre os últimos jogos de sobrevivência. Seus vídeos oferecem análises detalhadas, gameplays envolventes e dicas valiosas 
+								que melhoram minha experiência de jogo. Além disso, ganhei o Red Dead Redemption graças a uma promoção realizada pela nova patrocinadora do canal, Instant Gaming. Isso me deu a chance de jogar 
+								um título incrível e mostrou o quanto o Andarilho valoriza seus inscritos. Em resumo, acompanhar o canal do Andarilho me mantém informado e preparado para os desafios dos jogos de 
+								sobrevivência, tornando minha experiência ainda mais emocionante e gratificante.
+							</p>
+							<p class="texto04">
+								<a href="https://www.youtube.com/embed/videoseries?list=PLd9ykfMeym3jCU5tCFLXjZbMg4GY-u2EZ" class="btn btn-light" target="_blank">Playlist</a>
+                      			<a href="https://www.youtube.com/@Andarilhou/videos" class="btn btn-light" target="_blank">Canal</a>
+                      			<a href="https://www.twitch.tv/andarilhoo" class="btn btn-light" target="_blank">Twitch</a> <br><br>
+                      			<a href="https://www.youtube.com/@livesdoandarilho" class="btn btn-light" target="_blank">Canal de lives</a>
+                     			<a href="https://www.instant-gaming.com/pt/giveaway/andarilho" class="btn btn-light" target="_blank">Giveway</a> 
+                      			<a href="https://www.instagram.com/andarilhou/" class="btn btn-light" target="_blank">Instagram</a> <br><br>
+                      			<a href="https://discord.com/channels/302563407381528576/302563407381528576" class="btn btn-light" target="_blank">Discord</a>
+                      			<a href="https://bit.ly/3BygtDQ" class="btn btn-light" target="_blank">Setup</a>
+							</p> <hr>
+							<p class="texto04">
+								Setup Completo
+								<a class="link00" target="_blank" href="https://bit.ly/3BygtDQ">aqui</a>.
+								<ul>
+								  <li class="texto04"><strong class="texto04">CPU:</strong> Intel Core i9-11900K</li>
+								  <li class="texto04"><strong class="texto04">Placa-mãe:</strong> ATX Asus ROG Strix Z590-E Gaming Wi-Fi</li>
+								  <li class="texto04"><strong class="texto04">Placa de vídeo:</strong> EVGA GeForce RTX 2080 TI</li>
+								  <li class="texto04"><strong class="texto04">RAM:</strong> Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4-3600MHz</li>
+								  <li class="texto04"><strong class="texto04">SSD:</strong> M.2 2280 Corsair Force MP600 Pro 2TB</li>
+								  <li class="texto04"><strong class="texto04">Fonte:</strong> ATX Corsair RM Series RM850</li>
+								</ul>
+							  </p> <hr>
+							  <div class="ratio ratio-16x9">
+								<iframe class="video01" src="https://www.youtube.com/embed/videoseries?list=PLd9ykfMeym3jCU5tCFLXjZbMg4GY-u2EZ" title="YouTube video" allowfullscreen=""></iframe>
+							  </div> <br> <hr>
+							<p class="texto04">
+								<b class="text-warning">MaxMRM</b> <br> <br>
+								<img align="left" class="img01" src="assets/img/p08.jpg">
+								<b class="texto03">MaxMRM GAMEPLAY:</b> Um canal dedicado ao mundo dos games, com dicas, gameplays, reviews e tutoriais. MaxMRM se destaca por suas análises detalhadas, especialmente em 
+								jogos de terror, e sua experiência como diretor criativo em um jogo indie traz um toque único ao conteúdo. Acompanhar o canal é como ter um guia pessoal no mundo 
+								dos games, com vídeos envolventes e uma comunidade gamer ativa. Desde 2016, sou um grande fã e acompanho fielmente o canal e todos os seus vídeos.
+								Aqui está uma <a title="Parou em 2 - (00:16:00)" class="link00" target="_blank" 
+								href="https://www.youtube.com/embed/videoseries?list=PLd9ykfMeym3iMo46vjAbQ67MMn2SeOHfx">playlist</a> com os últimos vídeos do canal. Outros links relacionados:
+								<a class="link00" target="_blank" href="https://www.youtube.com/@MaxMRM/videos">Canal</a>.
+								Ser inscrito no canal do MaxMRM é como ter um guia pessoal no mundo dos jogos de terror! Ele traz análises detalhadas, gameplays envolventes e sempre está por dentro das últimas novidades. 
+								Além de ser um ótimo jogador, MaxMRM tem experiência como diretor criativo de um jogo indie, então ele sabe do que está falando! Suas dicas e insights não só melhoram nossa experiência de 
+								jogo, mas também nos fazem sentir parte de uma grande família gamer. Em resumo, o canal do MaxMRM é o lugar perfeito para ficar atualizado, se divertir e aprender mais sobre os jogos de 
+								terror, tudo com aquele toque especial que só ele tem! Desde 2016, tenho acompanhado o canal MaxMRM e assisti a todos os <b class="texto03">3591</b> vídeos postados até hoje. O conteúdo 
+								do Max sempre me atraiu pelo seu jeito único de apresentar e pela qualidade das análises e gameplays. É incrível como ele consegue manter o canal tão dinâmico e interessante ao longo dos 
+								anos. Estou sempre ansioso pelos novos vídeos e continuo sendo um grande fã do Max!
+							</p>
+							<p class="texto04">
+								<a href="https://www.youtube.com/embed/videoseries?list=PLd9ykfMeym3iMo46vjAbQ67MMn2SeOHfx" class="btn btn-light" target="_blank">Playlist</a>
+                      			<a href="https://www.youtube.com/@MaxMRM/videos" class="btn btn-light" target="_blank">Canal</a>
+							</p> <hr>
+							<p class="texto04">
+								<ul>
+								  <li class="texto04"><strong class="texto04">Significado de MRM:</strong> Maxwel Rocha De Meireles</li>
+								</ul>
+							</p> <hr>
+							<div class="ratio ratio-16x9">
+								<iframe class="video01" src="https://www.youtube.com/embed/videoseries?list=PLd9ykfMeym3iMo46vjAbQ67MMn2SeOHfx" title="YouTube video" allowfullscreen=""></iframe>
+							</div> <br> <hr>
+							<p class="texto04">
+								<b class="texto03">Sorteios:</b> Participar de sorteios pode ser divertido e empolgante, mas é importante considerar alguns pontos: embora muitos sorteios sejam gratuitos, alguns exigem uma compra 
+								ou inscrição, então avalie se o custo vale o prêmio potencial. As chances de ganhar geralmente são baixas, então participe com expectativas realistas. Certifique-se de que o sorteio é legítimo para 
+								evitar fraudes e golpes. Se você gosta da emoção de participar e os prêmios são atraentes, pode valer a pena, especialmente se for algo que você realmente deseja. Em resumo, sorteios podem ser uma 
+								maneira divertida de tentar a sorte, desde que você participe de forma consciente e segura. <br> <br>
+								<b class="texto03">Sorteios de Hardware:</b> <br>
+								01 - <a class="link00" target="_blank" href="https://dreamsetups.com.br/">dreamsetups</a> <br>
+								02 - <a class="link00" target="_blank" href="https://setuppremiado.com/">setuppremiado</a> <br>
+								03 - <a class="link00" target="_blank" href="https://www.flowsetups.com/">flowsetups</a> <br>
+								04 - <a class="link00" target="_blank" href="sorteios.html">Jogos</a>
+								<br>
+								<br>
+								<b class="texto04">EPDC:</b> Qual a melhor forma de se livrar de um vício? Qual é a melhor maneira para deixar o vício? <br> <br>
+								1 - Admita que há um problema. A parte mais difícil para a recuperação é admitir que você tem um vício. ... <br>
+								2 - Reflita sobre seu vício. ... <br>
+								3 - Busque apoio profissional. ... <br>
+								4 - Apreciar os benefícios da sobriedade. ... <br>
+								5 - Identifique seus gatilhos. ... <br>
+								6 - Mude seu ambiente. ... <br>
+								7 - Aprenda a aceitar o passado.
+							</p> <hr>
+							<p class="texto04">
+								<a href="https://www.youtube.com/playlist?list=WL" class="btn btn-light" target="_blank">Watch Later</a>
+							</p> <hr>
+							<p class="texto04 text-center">
+								Fim.
+							</p>
+						  </div>
+						  <div class="modal-footer modal1">
+							<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+						  </div>
+						  </div>
+						</div>
+					  </div> 
+					<!-- Fim Card -->
 				</div>
 			</article>
 	</section>
 	<!-- Rodapé -->
-	<footer class="container-fluid text-center footer1">
+	<footer id="fim1" class="container-fluid text-center footer1">
 			<p class="footer2">
 				<a href="https://www.instagram.com/johnbiri" target="_blank"><i class="bi bi-instagram icon1 fs-3"></i></a> |
 				<a href="https://www.youtube.com/@John-Biri" target="_blank"><i class="bi bi-youtube icon1 fs-3"></i></a> |
