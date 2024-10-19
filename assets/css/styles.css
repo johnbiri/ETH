@@ -71,12 +71,16 @@ body{
 	border-radius: 5px;
 }
 .itemMenu00:hover{
-	background-color: #a300c8;
+	background-color: #222;
 }
 .projetos00{
 	background-color: #000;
-	border: #a300c8 1px solid;
+	border: #222 1px solid;
 	padding: 20px;
+}
+.projetos00 li{
+	border-bottom: #222 1px solid;
+	padding: 10px;
 }
 .itemMenu01{
 	background-color: #500078;
